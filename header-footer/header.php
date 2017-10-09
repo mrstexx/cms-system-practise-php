@@ -21,6 +21,7 @@
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
           crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.scss">
+    <link rel="stylesheet" href="style/style_header.scss">
     <script src="https://use.fontawesome.com/f3004fe298.js"></script>
 </head>
 
@@ -49,10 +50,10 @@
         <!--        LEFT SIDE-->
         <div class="col-md-2" id="left-side">
             <div class="list-group">
-                <a href="users.php" class="list-group-item"><i class="fa fa-user" aria-hidden="true"></i> Users</a>
-                <a href="products.php" class="list-group-item"><i class="fa fa-list" aria-hidden="true"></i> Products</a>
-                <a href="statistics.php" class="list-group-item"><i class="fa fa-info-circle" aria-hidden="true"></i> Statistics</a>
-                <a href="contact.php" class="list-group-item"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
+                <a href="users.php" class="list-group-item <?php if ($sideSection == "users") echo "active"; ?>"><i class="fa fa-user" aria-hidden="true"></i> Users</a>
+                <a href="products.php" class="list-group-item <?php if ($sideSection == "products") echo "active"; ?>"><i class="fa fa-list" aria-hidden="true"></i> Products</a>
+                <a href="statistics.php" class="list-group-item <?php if ($sideSection == "statistics") echo "active"; ?>"><i class="fa fa-info-circle" aria-hidden="true"></i> Statistics</a>
+                <a href="contact.php" class="list-group-item <?php if ($sideSection == "contact") echo "active"; ?>"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
             </div>
         </div>
         <!--        RIGHT SIDE-->

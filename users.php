@@ -9,6 +9,7 @@
 
 <?php
 $pageTitle = "User";
+$sideSection = "users";
 include 'header-footer/header.php' ?>
 
 <!-- CONTENT -->

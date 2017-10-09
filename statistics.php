@@ -10,6 +10,7 @@
 
 <?php
 $pageTitle = "Statistic";
+$sideSection = "statistics";
 include 'header-footer/header.php' ?>
 
 <!-- CONTENT -->

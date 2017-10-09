@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "Admin Panel";
+$sideSection = null;
 include 'header-footer/header.php' ?>
 
     <!-- CONTENT -->
