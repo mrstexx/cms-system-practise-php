@@ -11,11 +11,11 @@
 <?php
 $pageTitle = "Statistic";
 $sideSection = "statistics";
-include 'header-footer/header.php' ?>
+include 'header-footer-data/header.php' ?>
 
 <!-- CONTENT -->
 
 <h2>Statistics</h2>
 
 
-<?php include 'header-footer/footer.php' ?>
+<?php include 'header-footer-data/footer.php' ?>

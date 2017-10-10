@@ -1,5 +1,62 @@
+#left-side {
+  padding: 0;
+  height: 100%;
+  background-color: #343a40;
+  float: left;
+  position: fixed;
+  width: 16%;
+  margin-right: -16%
+
+}
+
+#right-side {
+  float: left;
+  margin-left: 17%;
+  margin-right: 10px;
+}
+
 .list-group-item.active {
   background-color: #41474c;
   color: darkgray;
   border-color: #41474c;
 }
+
+.card-group {
+  margin-bottom: 30px;
+}
+
+.productTitle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #009688;
+}
+
+h5 {
+  color: white;
+}
+
+.btn {
+  margin-top: 10px;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: #343a40;
+  color: white;
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  background-color: #41474c;
+  border-color: transparent;
+}
+
+.btn-primary:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+

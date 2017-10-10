@@ -10,11 +10,11 @@
 <?php
 $pageTitle = "User";
 $sideSection = "users";
-include 'header-footer/header.php' ?>
+include 'header-footer-data/header.php' ?>
 
 <!-- CONTENT -->
 
 <h2>Users</h2>
 
 
-<?php include 'header-footer/footer.php' ?>
+<?php include 'header-footer-data/footer.php' ?>

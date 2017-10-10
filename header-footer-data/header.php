@@ -45,17 +45,22 @@
 
 <!--SIDEBAR-->
 
-<div class="container-fluid" style="height: 100%">
-    <div class="row" style="height: 100%">
+<div class="container-fluid" style="height: 100%; padding: 0;">
         <!--        LEFT SIDE-->
-        <div class="col-md-2" id="left-side">
+        <div id="left-side">
             <div class="list-group">
-                <a href="users.php" class="list-group-item <?php if ($sideSection == "users") echo "active"; ?>"><i class="fa fa-user" aria-hidden="true"></i> Users</a>
-                <a href="products.php" class="list-group-item <?php if ($sideSection == "products") echo "active"; ?>"><i class="fa fa-list" aria-hidden="true"></i> Products</a>
-                <a href="statistics.php" class="list-group-item <?php if ($sideSection == "statistics") echo "active"; ?>"><i class="fa fa-info-circle" aria-hidden="true"></i> Statistics</a>
-                <a href="contact.php" class="list-group-item <?php if ($sideSection == "contact") echo "active"; ?>"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
+                <a href="users.php" class="list-group-item <?php if ($sideSection == "users") echo "active"; ?>"><i
+                            class="fa fa-user" aria-hidden="true"></i> Users</a>
+                <a href="products.php"
+                   class="list-group-item <?php if ($sideSection == "products") echo "active"; ?>"><i class="fa fa-list"
+                                                                                                      aria-hidden="true"></i>
+                    Products</a>
+                <a href="statistics.php"
+                   class="list-group-item <?php if ($sideSection == "statistics") echo "active"; ?>"><i
+                            class="fa fa-info-circle" aria-hidden="true"></i> Statistics</a>
+                <a href="contact.php" class="list-group-item <?php if ($sideSection == "contact") echo "active"; ?>"><i
+                            class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
             </div>
         </div>
         <!--        RIGHT SIDE-->
-        <div class="col" id="right-side">
-
+        <div id="right-side">
